@@ -56,7 +56,17 @@ ul{
     width: 90%;
     padding-top: 1em;
 }
-.icon{
+.iconGithub{
     width: 8em;
-    
+}
+.iconGithub:hover{
+    transform: scale(1.5);
+    transition: 0.8s ease;
+}
+.iconLinkedin{
+    width: 8em;
+}
+.iconLinkedin:hover{
+    transform: scale(1.5);
+    transition: 0.8s ease;
 }
