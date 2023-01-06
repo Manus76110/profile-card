@@ -1,5 +1,5 @@
 body{
-    background-color: #d4d3d3;
+    background-color: #6FC7FF;
 }
 .containt {
     display: flex;
@@ -69,4 +69,17 @@ ul{
 .iconLinkedin:hover{
     transform: scale(1.5);
     transition: 0.8s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .containt{
+        width: 50%;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .containt{
+        width: 50%;
+        height: 100%;
+    }
 }
