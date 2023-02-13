@@ -1,0 +1,30 @@
+body{
+    background-color: #6FC7FF;
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border: solid 3px rgb(124, 42, 232);
+    border-radius: 1em;
+    width: 90%;
+    margin: 1em auto;
+    box-shadow: rgba(0, 0, 0, 0.90) 0px 5px 15px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-top: 1em;
+}
+.btn{
+    background-color:#6FC7FF;
+    border-radius: 0.4em;
+    width: 30%;
+    margin: 2em auto;
+    color: rgb(17, 15, 15);
+    padding: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.60) 0px 5px 15px;
+}
+

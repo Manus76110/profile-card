@@ -7,7 +7,9 @@ body{
     margin: auto;
     height: 78em;
     margin-top: 2em;
+    margin-bottom: 2em;
     width: 90%;
+    
     background-color: white;
     border-radius: 2em;
     box-shadow: rgba(0, 0, 0, 0.90) 0px 5px 15px;
@@ -17,17 +19,33 @@ body{
     height: 20em;
     border-radius: 2em 2em 0em 0em;   
 }
+nav.header-links {
+    text-align: center;
+    margin-top: 2em;
+}
+a.menu__link {
+    color: rgb(234, 238, 225);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+a.menu__link:hover{
+    color: #6FC7FF;
+    text-decoration-line: underline;
+    
+}
 .picture{
     display: flex;
     border-radius: 50%;
     border: solid 10px rgb(124, 42, 232);
     width: 22em;
     margin: auto;
-    margin-top: 2.5em;
+    margin-top: 1.5em;
+    
 }
 h1{
     color: black;
-    padding-top: 1.3em;
+    padding-top: 2.5em;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -42,32 +60,35 @@ h2{
 }
 ul{
     list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
 }
 .para{
-    width: 90%;
+    width: 70%;
     color: black;
     margin-left: 1.8em;
     font-size: 1.9em;
+    margin: auto;
 }
 .icons{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 90%;
-    padding-top: 1em;
+    padding-bottom: 1.5em;
 }
 .iconGithub{
-    width: 8em;
+    width: 6em;
 }
 .iconGithub:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: 0.8s ease;
 }
 .iconLinkedin{
-    width: 8em;
+    width: 6em;
 }
 .iconLinkedin:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: 0.8s ease;
 }
 
@@ -80,6 +101,6 @@ ul{
 @media screen and (min-width: 1024px) {
     .containt{
         width: 50%;
-        height: 100%;
+        height: 80%;
     }
 }
