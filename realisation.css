@@ -1,0 +1,17 @@
+body{
+    background-color: #6FC7FF;
+}
+
+.containt-real{
+    background-color: aliceblue;
+    border: solid 3px rgb(124, 42, 232);
+    border-radius: 1em;
+    width: 90%;
+    margin: 1em auto;
+    box-shadow: rgba(0, 0, 0, 0.90) 0px 5px 15px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}

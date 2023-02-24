@@ -18,6 +18,7 @@ body{
     margin: auto;
     padding-top: 1em;
 }
+
 .btn{
     background-color:#6FC7FF;
     border-radius: 0.4em;
@@ -28,3 +29,15 @@ body{
     box-shadow: rgba(0, 0, 0, 0.60) 0px 5px 15px;
 }
 
+@media screen and (min-width: 768px) {
+    #contact-form{
+        width: 50%;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #contact-form{
+        width: 50%;
+        height: 80%;
+    }
+}

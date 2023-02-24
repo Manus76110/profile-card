@@ -10,7 +10,7 @@ body{
     margin-bottom: 2em;
     width: 90%;
     
-    background-color: white;
+    background-color: aliceblue;
     border-radius: 2em;
     box-shadow: rgba(0, 0, 0, 0.90) 0px 5px 15px;
 }
@@ -55,26 +55,24 @@ h2{
     color: black;
     display: flex;
     justify-content: center;
-    margin-top: -1em;
-    font-size: 2em;
+    margin-top: -1.5em;
 }
 ul{
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    padding: 0;
 }
 .para{
     width: 70%;
     color: black;
-    margin-left: 1.8em;
     font-size: 1.9em;
-    margin: auto;
+    margin: 1em auto;
 }
 .icons{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 90%;
     padding-bottom: 1.5em;
 }
 .iconGithub{
