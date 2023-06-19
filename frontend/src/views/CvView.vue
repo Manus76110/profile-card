@@ -1,26 +1,41 @@
 <template>
   <div>
-    <embed :src="pdfPath" type="application/pdf" width="100%" height="100%">
+    <img src="@/assets/images/cv.jpg" alt="image du cv" />
   </div>
 </template>
 
-<script>
-export default {
 
-  data() {
-    return {
-      pdfPath: '/assets/cv.pdf' // Chemin d'accès absolu vers le fichier PDF
-    };
-  }
-};
-</script>
 
 <style scoped>
+
 div {
-  width: 80%;
-  height: 100vh;
-  margin: auto;
-  margin-top: -0.6em;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-top: 1.8em;
+}
+
+img {
+  width: 100%;
+  height: 90vh;
+  margin-top: 1.8em;
+}
+
+@media screen and (min-width: 768px) {
+  img {
+    width: 60%;
+    margin: auto;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+  }
 }
 </style>

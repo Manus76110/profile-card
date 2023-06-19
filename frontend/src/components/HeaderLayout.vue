@@ -35,6 +35,8 @@
       </nav>
     </div>
   </header>
+
+  
 </template>
 
 <script>
@@ -43,6 +45,7 @@ export default {
     return {
       isMenuOpen: false,
       isMobile: false,
+      
     };
   },
   mounted() {
@@ -55,6 +58,7 @@ export default {
   methods: {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen;
+      
     },
     checkWindowSize() {
       this.isMobile = window.innerWidth < 768;
@@ -218,5 +222,11 @@ ul {
   .mobile-menu {
     display: none;
   }
+
+  a.menu__link {
+
+  font-size: 1.5em;
+  
+}
 }
 </style>
