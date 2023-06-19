@@ -120,15 +120,15 @@ ul {
 }
 
 .mobile-menu {
-  display: none;
-  background-color: rgb(124, 42, 232);
+  
+  background-color: #0288d1;;
   position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  padding: 1em 0;
-  border-radius: 0 0 2em 2em;
+  top: 4em; 
+  padding: 1em;
   z-index: 99;
+  border-radius: 10px 0 0 10px;
+  height: 9em;
+
 }
 
 .mobile-menu.open {
@@ -136,7 +136,7 @@ ul {
 }
 
 .mobile-menu li {
-  padding: 0.5em;
+  margin-bottom: 2.2em;
 }
 
 .mobile-menu li a {
@@ -144,6 +144,7 @@ ul {
   font-weight: bold;
   text-decoration: none;
   font-size: 1.2em;
+  margin: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -156,7 +157,7 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
-    height: 20px;
+    height: 17px;
     cursor: pointer;
     position: relative;
     z-index: 100;
