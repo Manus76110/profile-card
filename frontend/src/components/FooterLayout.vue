@@ -66,13 +66,13 @@ ul {
 }
 @media screen and (min-width: 768px) {
     .containt{
-        width: 50%;
+        width: 70%;
         height: 100%;
     }
 }
 @media screen and (min-width: 1024px) {
     .containt{
-        width: 50%;
+        width: 60%;
         height: 80%;
     }
 }
@@ -80,13 +80,12 @@ ul {
 
 <script>
 export default {
-
   methods: {
     redirectToGithub() {
-      window.location.href = "https://github.com/Manus76110";
+      window.open("https://github.com/Manus76110", "_blank");
     },
     redirectToLinkedin() {
-      window.location.href = "https://linkedin.com/in/manuel-sanchez-119337235";
+      window.open("https://linkedin.com/in/manuel-sanchez-119337235", "_blank");
     },
   },
 };

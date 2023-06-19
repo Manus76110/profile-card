@@ -12,12 +12,16 @@
       <h1>Manuel Sanchez</h1>
       <h2>Développeur web Junior</h2>
       <p class="para">
-        Après plus de 14 ans dans la chaudronnerie je me suis enfin lancé dans
-        une formation de 6 mois pour apprendre et exercer le métier qui me
-        passionne depuis toujours: Développeur Web.<br />
-        <br />Je continue de me former en autodidacte pour améliorer mes
-        compétences et en acquérir de nouvelles. Je suis extrêmement motivé et
-        je ferais tout pour évoluer professionnellement.
+        Avec plus de 14 ans d'expérience en chaudronnerie, j'ai récemment fait le choix passionné de devenir développeur web.
+        Grâce à une formation intensive de 6 mois, j'ai acquis les compétences nécessaires pour créer des sites web exceptionnels.<br>
+        <br>
+        Je suis constamment en quête d'apprentissage et d'amélioration, investissant mon temps libre pour 
+        rester à la pointe des dernières technologies et tendances en développement web. <br>
+        <br>
+        Ma motivation sans faille et mon engagement total garantissent une collaboration professionnelle 
+        et des résultats de qualité. Je suis prêt à relever tous les défis pour transformer votre vision en réalité. <br>
+        <br>
+        Contactez-moi dès maintenant pour discuter de vos projets et construire ensemble une présence en ligne exceptionnelle.
       </p>
     </div>
   </div>
@@ -60,6 +64,8 @@
 h1 {
   text-align: center;
   font-size: 1.5em;
+  color: black;
+  margin-top: 0.8em;
 }
 
 h2 {
@@ -76,7 +82,7 @@ h2 {
 
 @media screen and (min-width: 768px) {
   .containt {
-    width: 50%;
+    width: 70%;
   }
   .picture {
     width: 9em;
@@ -88,7 +94,7 @@ h2 {
 
 @media screen and (min-width: 1024px) {
   .containt {
-    width: 50%;
+    width: 60%;
     height: 80%;
   }
   .para {
