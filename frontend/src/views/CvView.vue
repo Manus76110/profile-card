@@ -13,13 +13,14 @@ div {
   justify-content: center;
   align-items: center;
   height: 90vh;
-  margin-top: 1.8em;
+
 }
 
 img {
   width: 100%;
   height: 90vh;
-  margin-top: 1.8em;
+  margin-top: 2em;
+  
 }
 
 @media screen and (min-width: 768px) {

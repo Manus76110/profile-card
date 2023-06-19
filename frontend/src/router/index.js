@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ContactView from '../views/ContactView.vue'
 import CvView from '../views/CvView.vue'
 import RealisationView from '../views/RealisationView.vue'
+import Error404View from '../views/Error404View.vue'
 
 const routes = [
   {
@@ -25,6 +26,12 @@ const routes = [
     name: 'realisation',
     component: RealisationView
   },
+  {
+    path: '/:pathMatch(.*)*',
+    name: '404',
+    component: Error404View
+  },
+
 
   // {
   //   path: '/about',
